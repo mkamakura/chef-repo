@@ -9,5 +9,6 @@
 
 package 'apache2' do
 	action :install
+	version "2.2.22-1ubuntu1.4"
 end
 
