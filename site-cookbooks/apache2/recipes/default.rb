@@ -12,3 +12,9 @@ package 'apache2' do
 	version "2.2.22-1ubuntu1.4"
 end
 
+template "/etc/apache2/sites-available/default" do
+	source "default"
+	owner "root"
+	group "root"
+	mode 0644
+end
