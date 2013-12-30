@@ -1,6 +1,7 @@
 {
 	"run_list":[
 		"apache2",
-		"php"
+		"php",
+		"mysql"
 	]
 }
